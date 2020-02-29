@@ -1,0 +1,19 @@
+{
+  "name": "guia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify index.js -o build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "beet.js": "^1.7.0",
+    "bowser": "^2.9.0",
+    "browserify": "^16.5.0",
+    "three": "^0.113.2",
+    "watchify": "^3.11.1"
+  }
+}
