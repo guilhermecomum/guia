@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "browserify index.js > build/index.js",
     "watch": "watchify index.js -o build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +14,7 @@
     "beet.js": "^1.7.0",
     "bowser": "^2.9.0",
     "browserify": "^16.5.0",
+    "shortid": "^2.2.15",
     "three": "^0.113.2",
     "watchify": "^3.11.1"
   }

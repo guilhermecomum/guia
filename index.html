@@ -3,21 +3,22 @@
   <head>
     <title>Guia</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="./lib/demo.css">
+    <link rel="stylesheet" type="text/css" href="./lib/style.css">
   </head>
   <body>
-    <div class="controls">
-      <label>Sequência</label>
-      <input class="input" id="sequence" type="text" value="1000101000101000" /><br /><br />
-      <label>Tempo</label>
-      <input class="input" id="tempo" type="text" value="120" /><br /><br />
-      <button id="add">Adicionar</button><br /><Br />
-    </div>
+    <div class="container">
+      <div class="inputs">
+        <input class="input" id="sequence" type="text" value="1000101000101000" /><br /><br />
+        <input class="input" id="tempo" type="text" value="120" /><br /><br />
 
-    <section class='example' id='1'>
-      <i class="fa fa-play icon" id="play"></i>
-    </section>
+        <button id="add">Adicionar</button><br /><Br />
+      </div>
+
+      <section id="stage">
+      </section>
+    </div>
   </body>
   <script type="text/javascript" src="build/index.js"></script>
 </html>
