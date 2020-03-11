@@ -15,6 +15,7 @@ html, body {
 
 #stage {
     width: 100%;
+    display: flex;
 }
 
 .icon {
